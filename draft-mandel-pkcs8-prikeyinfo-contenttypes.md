@@ -22,19 +22,18 @@ venue:
   #latest: https://example.com/LATEST
 
 author:
- -
-    fullname: Joe Mandel
-    organization: AKAYLA, Inc.
-    email: joe@akayla.com
-
-    fullname: Russ Housley
-    organization: Vigil Security, LLC
-    abbrev: Vigil Security
-    email: housley@vigilsec.com
-
-    fullname: Sean Turner
-    organization: Sn3rd
-    email: sean@sn3rd.com
+- name: Joe Mandel
+  org: AKAYLA, Inc.
+  abbrev: AKAYLA
+  email: joe@akayla.com
+- name: Russ Housley
+  org: Vigil Security, LLC
+  abbrev: Vigil Security
+  email: housley@vigilsec.com
+- name: Sean Turner
+  org: sn3rd, llc
+  abbrev: sn3rd
+  email: sean@sn3rd.com
 
 normative:
   RFC5208:
