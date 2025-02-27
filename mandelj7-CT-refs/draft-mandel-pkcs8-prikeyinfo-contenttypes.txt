@@ -2,10 +2,13 @@
 
 
 
-LAMPS Working Group                                            S. Turner
-Internet-Draft                                            Vigil Security
-Intended status: Standards Track                        27 February 2025
-Expires: 31 August 2025
+LAMPS Working Group                                            J. Mandel
+Internet-Draft                                                    AKAYLA
+Intended status: Standards Track                              R. Housley
+Expires: 31 August 2025                                   Vigil Security
+                                                               S. Turner
+                                                                   sn3rd
+                                                        27 February 2025
 
 
              PKCS #8 Private-Key Information Content Types
@@ -73,7 +76,7 @@ Table of Contents
    6.  ASN.1 Module
    7.  Normative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -202,8 +205,18 @@ Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
+
+   Joe Mandel
+   AKAYLA, Inc.
+   Email: joe@akayla.com
+
+
+   Russ Housley
+   Vigil Security, LLC
+   Email: housley@vigilsec.com
+
 
    Sean Turner
-   Sn3rd
+   sn3rd, llc
    Email: sean@sn3rd.com
