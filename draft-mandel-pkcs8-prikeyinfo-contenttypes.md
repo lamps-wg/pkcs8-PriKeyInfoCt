@@ -16,25 +16,24 @@ keyword:
 venue:
   group: WG
   type: LAMPS
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  mail: spasm@ietf.org
+  arch: https://mailarchive.ietf.org/arch/browse/spasm/
+  github: https://github.com/mandelj7/pkcs8-PriKeyInfoCt
+  #latest: https://example.com/LATEST
 
 author:
- -
-    fullname: Joe Mandel
-    organization: AKAYLA, Inc.
-    email: joe@akayla.com
-
-    fullname: Russ Housley
-    organization: Vigil Security, LLC
-    abbrev: Vigil Security
-    email: housley@vigilsec.com
-
-    fullname: Sean Turner
-    organization: Sn3rd
-    email: sean@sn3rd.com
+- name: Joe Mandel
+  org: AKAYLA, Inc.
+  abbrev: AKAYLA
+  email: joe@akayla.com
+- name: Russ Housley
+  org: Vigil Security, LLC
+  abbrev: Vigil Security
+  email: housley@vigilsec.com
+- name: Sean Turner
+  org: sn3rd, llc
+  abbrev: sn3rd
+  email: sean@sn3rd.com
 
 normative:
   RFC5208:
@@ -87,11 +86,11 @@ The security considerations in {{RFC5958}} apply here.
 
 # IANA Considerations
 
-For the private key info content types defined in section {{#ContentTypes}},
+For the private key info content types defined in section {{ContentTypes}},
 IANA is requested to assign an object identifier (OID) for each of the content types. The
 OIDs for the content types should be alloacted in the "SMI Security for S/MIME CMS Content Type"
-registry (1.2.840.113549.1.9.16.1), and the description should be set to id-ct-privateKeyInfo {{TDB1}}
-and id-ct-encrPrivateKeyInfo {{TBD2}}.
+registry (1.2.840.113549.1.9.16.1), and the description should be set to id-ct-privateKeyInfo (TDB1)
+and id-ct-encrPrivateKeyInfo (TBD2).
 
 For the ASN.1 Module in {{asn1-mod}}, IANA is requested to assign an
 object identifier (OID) for the module identifier. The OID for the module
