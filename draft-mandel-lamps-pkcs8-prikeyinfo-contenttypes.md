@@ -3,7 +3,7 @@ title: "PKCS #8 Private-Key Information Content Types"
 abbrev: "PKCS #8 PrivateKeyInfo Content Types"
 category: std
 
-docname: draft-mandel-pkcs8-prikeyinfo-contenttypes-latest
+docname: draft-mandel-lamps-pkcs8-prikeyinfo-contenttypes-latest
 submissiontype: IETF
 number:
 date:
