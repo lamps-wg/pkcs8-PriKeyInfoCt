@@ -18,8 +18,8 @@ venue:
   type: LAMPS
   mail: spasm@ietf.org
   arch: https://mailarchive.ietf.org/arch/browse/spasm/
-  github: https://github.com/mandelj7/pkcs8-PriKeyInfoCt
-  #latest: https://example.com/LATEST
+  github: mandelj7/pkcs8-PriKeyInfoCt
+  latest: https://github.com/mandelj7/pkcs8-PriKeyInfoCt
 
 author:
 - name: Joe Mandel
