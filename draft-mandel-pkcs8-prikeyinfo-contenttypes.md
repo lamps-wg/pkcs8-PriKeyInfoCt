@@ -4,7 +4,7 @@ abbrev: "PKCS #8 PrivateKeyInfo Content Types"
 category: std
 
 docname: draft-mandel-pkcs8-prikeyinfo-contenttypes-latest
-submissiontype: IETF  
+submissiontype: IETF
 number:
 date:
 consensus: true
