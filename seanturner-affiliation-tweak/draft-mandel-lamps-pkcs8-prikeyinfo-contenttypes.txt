@@ -5,14 +5,14 @@
 LAMPS Working Group                                            J. Mandel
 Internet-Draft                                                    AKAYLA
 Intended status: Standards Track                              R. Housley
-Expires: 31 August 2025                                   Vigil Security
+Expires: 4 October 2025                                   Vigil Security
                                                                S. Turner
                                                                    sn3rd
-                                                        27 February 2025
+                                                            2 April 2025
 
 
              PKCS #8 Private-Key Information Content Types
-           draft-mandel-pkcs8-prikeyinfo-contenttypes-latest
+        draft-mandel-lamps-pkcs8-prikeyinfo-contenttypes-latest
 
 Abstract
 
@@ -23,9 +23,10 @@ About This Document
 
    This note is to be removed before publishing as an RFC.
 
-   Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-mandel-pkcs8-prikeyinfo-
-   contenttypes/.
+   The latest revision of this draft can be found at
+   https://github.com/mandelj7/pkcs8-PriKeyInfoCt.  Status information
+   for this document may be found at https://datatracker.ietf.org/doc/
+   draft-mandel-lamps-pkcs8-prikeyinfo-contenttypes/.
 
    Discussion of this document takes place on the WG LAMPS mailing list
    (mailto:spasm@ietf.org), which is archived at
@@ -33,7 +34,7 @@ About This Document
    https://www.ietf.org/mailman/listinfo/spasm/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/https://github.com/mandelj7/pkcs8-PriKeyInfoCt.
+   https://github.com/mandelj7/pkcs8-PriKeyInfoCt.
 
 Status of This Memo
 
@@ -50,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 August 2025.
+   This Internet-Draft will expire on 4 October 2025.
 
 Copyright Notice
 
@@ -218,5 +219,5 @@ Authors' Addresses
 
 
    Sean Turner
-   sn3rd, llc
+   sn3rd
    Email: sean@sn3rd.com
