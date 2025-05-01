@@ -44,7 +44,9 @@ informative:
 
 --- abstract
 
-This document defines PKCS #8 Content Types for Private-Key Information.
+This document defines PKCS #8 content types for use with
+PrivateKeyInfo and EncryptedPrivateKeyInfo as specified in
+RFC 5958.
 
 --- middle
 
