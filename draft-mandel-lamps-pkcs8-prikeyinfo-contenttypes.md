@@ -12,7 +12,7 @@ v: 3
 area: Security
 workgroup: LAMPS Working Group
 keyword:
- - 
+ -
 venue:
   group: WG
   type: LAMPS
