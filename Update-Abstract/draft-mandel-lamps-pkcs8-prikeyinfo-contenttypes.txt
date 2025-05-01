@@ -17,7 +17,7 @@ Expires: 2 November 2025                                  Vigil Security
 Abstract
 
    This document defines PKCS #8 content types for use with
-   PrivateKeyInfo and EncryptedPrivateKeyInfo as specified in [RFC5958].
+   PrivateKeyInfo and EncryptedPrivateKeyInfo as specified in RFC 5958.
 
 About This Document
 
