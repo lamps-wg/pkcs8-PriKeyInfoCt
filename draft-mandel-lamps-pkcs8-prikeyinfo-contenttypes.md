@@ -31,7 +31,7 @@ author:
   abbrev: Vigil Security
   email: housley@vigilsec.com
 - name: Sean Turner
-  org: sn3rd, llc
+  org: sn3rd
   abbrev: sn3rd
   email: sean@sn3rd.com
 
