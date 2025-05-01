@@ -5,10 +5,10 @@
 LAMPS Working Group                                            J. Mandel
 Internet-Draft                                                    AKAYLA
 Intended status: Standards Track                              R. Housley
-Expires: 4 September 2025                                 Vigil Security
+Expires: 2 November 2025                                  Vigil Security
                                                                S. Turner
                                                                    sn3rd
-                                                            3 March 2025
+                                                              1 May 2025
 
 
              PKCS #8 Private-Key Information Content Types
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 September 2025.
+   This Internet-Draft will expire on 2 November 2025.
 
 Copyright Notice
 
@@ -219,5 +219,5 @@ Authors' Addresses
 
 
    Sean Turner
-   sn3rd, llc
+   sn3rd
    Email: sean@sn3rd.com
