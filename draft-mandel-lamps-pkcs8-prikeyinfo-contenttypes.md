@@ -9,17 +9,17 @@ number:
 date:
 consensus: true
 v: 3
-area: Security
-workgroup: LAMPS Working Group
+area: ""
+workgroup: "Limited Additional Mechanisms for PKIX and SMIME"
 keyword:
  -
 venue:
-  group: WG
-  type: LAMPS
-  mail: spasm@ietf.org
-  arch: https://mailarchive.ietf.org/arch/browse/spasm/
-  github: mandelj7/pkcs8-PriKeyInfoCt
-  latest: https://github.com/mandelj7/pkcs8-PriKeyInfoCt
+  group: "Limited Additional Mechanisms for PKIX and SMIME"
+  type: ""
+  mail: "spasm@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/spasm/"
+  github: "mandelj7/pkcs8-PriKeyInfoCt"
+  latest: "https://mandelj7.github.io/pkcs8-PriKeyInfoCt/draft-mandel-lamps-pkcs8-prikeyinfo-contenttypes.html"
 
 author:
 - name: Joe Mandel
