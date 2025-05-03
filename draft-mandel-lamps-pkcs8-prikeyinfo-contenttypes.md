@@ -144,8 +144,10 @@ id-ct-encrPrivateKeyInfo OBJECT IDENTIFIER ::= { iso(1)
  member-body(2) us(840) rsadsi(113549) pkcs(1) pkcs-9(9)
  smime(16) ct(1) TBD2 }
 
-END
 ~~~
+{: sourcecode-markers='true'}
+END
+
 --- back
 
 # Acknowledgments
