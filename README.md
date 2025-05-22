@@ -6,7 +6,7 @@ This is the working area for the LAMPS WG's Internet-Draft, "PKCS #8 Private-Key
 
 * [Editor's Copy](https://lamps-wg.github.io/pkcs8-PriKeyInfoCt/#go.draft-ietf-lamps-pkcs8-prikeyinfo-contenttypes.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-lamps-pkcs8-prikeyinfo-contenttypes)
-* [Compare Editor's Copy to Individual Draft](https://lamps-wg.github.io/pkcs8-PriKeyInfoCt/#go.draft-ietf-lamps-pkcs8-prikeyinfo-contenttypes.diff)
+* [Compare Editor's Copy to Datatracker](https://lamps-wg.github.io/pkcs8-PriKeyInfoCt/#go.draft-ietf-lamps-pkcs8-prikeyinfo-contenttypes.diff)
 
 
 ## Contributing
