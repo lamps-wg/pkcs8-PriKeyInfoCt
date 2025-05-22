@@ -146,6 +146,9 @@ id-ct-encrPrivateKeyInfo OBJECT IDENTIFIER ::= { iso(1)
 
 END
 ~~~
+{: sourcecode-markers='true'}
+
+
 --- back
 
 # Acknowledgments
