@@ -5,10 +5,10 @@
 Limited Additional Mechanisms for PKIX and SMIME               J. Mandel
 Internet-Draft                                                    AKAYLA
 Intended status: Standards Track                              R. Housley
-Expires: 4 November 2025                                  Vigil Security
+Expires: 23 November 2025                                 Vigil Security
                                                                S. Turner
                                                                    sn3rd
-                                                              3 May 2025
+                                                             22 May 2025
 
 
              PKCS #8 Private-Key Information Content Types
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 November 2025.
+   This Internet-Draft will expire on 23 November 2025.
 
 Copyright Notice
 
@@ -176,9 +176,9 @@ Table of Contents
    id-ct-encrPrivateKeyInfo OBJECT IDENTIFIER ::= { iso(1)
     member-body(2) us(840) rsadsi(113549) pkcs(1) pkcs-9(9)
     smime(16) ct(1) TBD2 }
-   <CODE ENDS>
 
    END
+   <CODE ENDS>
 
 7.  Normative References
 
