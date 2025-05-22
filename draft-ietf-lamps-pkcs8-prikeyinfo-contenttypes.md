@@ -3,13 +3,13 @@ title: "PKCS #8 Private-Key Information Content Types"
 abbrev: "PKCS #8 PrivateKeyInfo Content Types"
 category: std
 
-docname: draft-mandel-lamps-pkcs8-prikeyinfo-contenttypes-latest
+docname: draft-ietf-lamps-pkcs8-prikeyinfo-contenttypes-latest
 submissiontype: IETF
 number:
 date:
 consensus: true
 v: 3
-area: ""
+area: "Security"
 workgroup: "Limited Additional Mechanisms for PKIX and SMIME"
 keyword:
  -
@@ -18,8 +18,8 @@ venue:
   type: ""
   mail: "spasm@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/spasm/"
-  github: "mandelj7/pkcs8-PriKeyInfoCt"
-  latest: "https://mandelj7.github.io/pkcs8-PriKeyInfoCt/draft-mandel-lamps-pkcs8-prikeyinfo-contenttypes.html"
+  github: "lamps-wg/pkcs8-PriKeyInfoCt"
+  latest: "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt"
 
 author:
 - name: Joe Mandel
