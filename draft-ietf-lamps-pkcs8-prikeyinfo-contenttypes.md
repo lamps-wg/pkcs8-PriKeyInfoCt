@@ -154,5 +154,5 @@ END
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+We would like to thank John Gray for reviewing the document and providing comments.
 
