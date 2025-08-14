@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-12T01:37:39.925605+00:00",
+  "timestamp": "2025-08-14T01:39:58.346481+00:00",
   "repo": "lamps-wg/pkcs8-PriKeyInfoCt",
   "labels": [
     {
@@ -355,24 +355,26 @@
       "id": "PR_kwDOOAA1A86hP4Ph",
       "title": "acknowledgement section",
       "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/7",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mandelj7",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-07-29T20:48:16Z",
-      "updatedAt": "2025-07-30T02:06:39Z",
+      "updatedAt": "2025-08-13T19:43:40Z",
       "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "baseRefName": "main",
       "baseRefOid": "dbfcf9986c58d62c2735ae1018befee414e72261",
       "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "headRefName": "acknowledgement-section",
       "headRefOid": "88e6e6941abce6cacdf2f98ef41870d58d3d76b0",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-08-13T19:43:36Z",
+      "mergedAt": "2025-08-13T19:43:36Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "9d0cf533843c9c53f2c79697404a0816623ff318"
+      },
       "comments": [],
       "reviews": [
         {
