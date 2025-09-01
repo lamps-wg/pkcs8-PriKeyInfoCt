@@ -5,10 +5,10 @@
 Limited Additional Mechanisms for PKIX and SMIME               J. Mandel
 Internet-Draft                                                    AKAYLA
 Intended status: Standards Track                              R. Housley
-Expires: 14 February 2026                                 Vigil Security
+Expires: 5 March 2026                                     Vigil Security
                                                                S. Turner
                                                                    sn3rd
-                                                          13 August 2025
+                                                        1 September 2025
 
 
              PKCS #8 Private-Key Information Content Types
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 February 2026.
+   This Internet-Draft will expire on 5 March 2026.
 
 Copyright Notice
 
@@ -75,7 +75,9 @@ Table of Contents
    4.  Security Considerations
    5.  IANA Considerations
    6.  ASN.1 Module
-   7.  Normative References
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -134,6 +136,9 @@ Table of Contents
 
 6.  ASN.1 Module
 
+   The ASN.1 module in this section builds upon the modules in
+   [RFC5911].
+
    <CODE BEGINS>
    PrivateKeyInfoContentTypes
     { iso(1) member-body(2) us(840) rsadsi(113549) pkcs(1)
@@ -179,17 +184,14 @@ Table of Contents
    END
    <CODE ENDS>
 
-7.  Normative References
+7.  References
+
+7.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/rfc/rfc2119>.
-
-   [RFC5208]  Kaliski, B., "Public-Key Cryptography Standards (PKCS) #8:
-              Private-Key Information Syntax Specification Version 1.2",
-              RFC 5208, DOI 10.17487/RFC5208, May 2008,
-              <https://www.rfc-editor.org/rfc/rfc5208>.
 
    [RFC5911]  Hoffman, P. and J. Schaad, "New ASN.1 Modules for
               Cryptographic Message Syntax (CMS) and S/MIME", RFC 5911,
@@ -203,6 +205,13 @@ Table of Contents
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+7.2.  Informative References
+
+   [RFC5208]  Kaliski, B., "Public-Key Cryptography Standards (PKCS) #8:
+              Private-Key Information Syntax Specification Version 1.2",
+              RFC 5208, DOI 10.17487/RFC5208, May 2008,
+              <https://www.rfc-editor.org/rfc/rfc5208>.
 
 Acknowledgments
 
