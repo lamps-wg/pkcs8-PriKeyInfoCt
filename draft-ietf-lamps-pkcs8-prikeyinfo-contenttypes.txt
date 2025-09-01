@@ -215,7 +215,7 @@ Table of Contents
 
 Acknowledgments
 
-   We would like to thank John Gray for reviewing the document and
+   Thanks to John Gray and Deb Cooley for reviewing the document and
    providing comments.
 
 Authors' Addresses
