@@ -155,5 +155,5 @@ END
 # Acknowledgments
 {:numbered="false"}
 
-We would like to thank John Gray for reviewing the document and providing comments.
+Thanks to John Gray and Deb Cooley for reviewing the document and providing comments.
 
