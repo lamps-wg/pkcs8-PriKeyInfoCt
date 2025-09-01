@@ -36,11 +36,10 @@ author:
   email: sean@sn3rd.com
 
 normative:
-  RFC5208:
   RFC5958:
   RFC5911:
 informative:
-
+  RFC5208:
 
 --- abstract
 
@@ -101,6 +100,8 @@ registry (1.2.840.113549.1.9.16.0), and the Description for the new OID should b
 to "id-mod-pkcs8ContentType".
 
 # ASN.1 Module {#asn1-mod}
+
+The ASN.1 module in this section builds upon the modules in [RFC5911].
 
 ~~~ asn.1
 PrivateKeyInfoContentTypes
