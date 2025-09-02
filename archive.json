@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-31T01:27:40.124644+00:00",
+  "timestamp": "2025-09-02T01:24:02.745929+00:00",
   "repo": "lamps-wg/pkcs8-PriKeyInfoCt",
   "labels": [
     {
@@ -391,6 +391,78 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOOAA1A86mLD3a",
+      "title": "update refs",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/8",
+      "state": "MERGED",
+      "author": "mandelj7",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-08-31T16:57:53Z",
+      "updatedAt": "2025-09-01T15:23:19Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "9d0cf533843c9c53f2c79697404a0816623ff318",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "update-refs",
+      "headRefOid": "33314ffe5173aa00ba8330d7c2235315000928de",
+      "closedAt": "2025-09-01T15:23:18Z",
+      "mergedAt": "2025-09-01T15:23:18Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "ce5548e382724b777c07b0c8dd8fd99a80063207"
+      },
+      "comments": [
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Looks good to me.",
+          "createdAt": "2025-08-31T18:40:57Z",
+          "updatedAt": "2025-08-31T18:40:57Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOOAA1A86mVuTz",
+      "title": "Update Acknowledgments",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/9",
+      "state": "MERGED",
+      "author": "mandelj7",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-09-01T20:40:38Z",
+      "updatedAt": "2025-09-01T22:19:26Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "ce5548e382724b777c07b0c8dd8fd99a80063207",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "Update-Acknowledgments",
+      "headRefOid": "b7d241c47dc0798a9015f4a9bf1efd780214f380",
+      "closedAt": "2025-09-01T22:19:26Z",
+      "mergedAt": "2025-09-01T22:19:26Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "ebef3e4a433058a75682a790a627c8584dba41fe"
+      },
+      "comments": [
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Looks good to me.",
+          "createdAt": "2025-09-01T20:43:00Z",
+          "updatedAt": "2025-09-01T20:43:00Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
