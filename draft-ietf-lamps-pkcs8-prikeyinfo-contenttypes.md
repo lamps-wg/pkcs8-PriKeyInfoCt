@@ -51,8 +51,8 @@ RFC 5958.
 
 # Introduction {#intro}
 
-The syntax for private-key information was originally described in {{RFC5208}} and
-later obsoleted by {{RFC5958}}. This document defines PKCS #8 content types for
+The syntax for private-key information was originally described in {{RFC5208}}, and
+the syntax was later revised by {{RFC5958}}. This document defines PKCS #8 content types for
 use with PrivateKeyInfo and EncryptedPrivateKeyInfo.
 
 # Conventions and Definitions
