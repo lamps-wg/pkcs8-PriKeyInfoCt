@@ -38,6 +38,30 @@ author:
 normative:
   RFC5958:
   RFC5911:
+  X680:
+    target: https://www.itu.int/rec/T-REC-X.680
+    title: >
+      Information technology --
+      Abstract Syntax Notation One (ASN.1):
+      Specification of basic notation
+    author:
+    - org: ITU-T
+    date: 2021-02
+    seriesinfo:
+      ITU-T Recommendation: X.680
+      ISO/IEC: 8824-1:2021
+  X690:
+    target: https://www.itu.int/rec/T-REC-X.690
+    title: >
+      Information technology --
+      ASN.1 encoding rules: Specification of Basic Encoding Rules (BER),
+      Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER)
+    author:
+    - org: ITU-T
+    date: 2021-02
+    seriesinfo:
+      ITU-T Recommendation: X.690
+      ISO/IEC: 8825-1-2021
 informative:
   RFC5208:
 
@@ -80,28 +104,9 @@ id-ct-encrPrivateKeyInfo OBJECT IDENTIFIER ::= { iso(1)
  smime(16) ct(1) TBD2 }
 ~~~
 
-# Security Considerations
-
-The security considerations in {{RFC5958}} apply here.
-
-
-# IANA Considerations
-
-For the private key info content types defined in section {{ContentTypes}},
-IANA is requested to assign an object identifier (OID) for each of the content types. The
-OIDs for the content types should be alloacted in the "SMI Security for S/MIME CMS Content Type"
-registry (1.2.840.113549.1.9.16.1), and the description should be set to id-ct-privateKeyInfo (TDB1)
-and id-ct-encrPrivateKeyInfo (TBD2).
-
-For the ASN.1 Module in {{asn1-mod}}, IANA is requested to assign an
-object identifier (OID) for the module identifier. The OID for the module
-should be allocated in the "SMI Security for S/MIME Module Identifier"
-registry (1.2.840.113549.1.9.16.0), and the Description for the new OID should be set
-to "id-mod-pkcs8ContentType".
-
 # ASN.1 Module {#asn1-mod}
 
-The ASN.1 module in this section builds upon the modules in [RFC5911].
+The ASN.1 module {{X680}}{{X690}} in this section builds upon the modules in {{RFC5911}}.
 
 ~~~ asn.1
 PrivateKeyInfoContentTypes
@@ -149,6 +154,24 @@ END
 ~~~
 {: sourcecode-markers='true'}
 
+# Security Considerations
+
+The security considerations in {{RFC5958}} apply here.
+
+
+# IANA Considerations
+
+For the private key info content types defined in section {{ContentTypes}},
+IANA is requested to assign an object identifier (OID) for each of the content types. The
+OIDs for the content types should be alloacted in the "SMI Security for S/MIME CMS Content Type"
+registry (1.2.840.113549.1.9.16.1), and the description should be set to id-ct-privateKeyInfo (TDB1)
+and id-ct-encrPrivateKeyInfo (TBD2).
+
+For the ASN.1 Module in {{asn1-mod}}, IANA is requested to assign an
+object identifier (OID) for the module identifier. The OID for the module
+should be allocated in the "SMI Security for S/MIME Module Identifier"
+registry (1.2.840.113549.1.9.16.0), and the Description for the new OID should be set
+to "id-mod-pkcs8ContentType".
 
 --- back
 
