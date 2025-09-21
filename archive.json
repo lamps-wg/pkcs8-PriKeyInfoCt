@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-18T01:19:23.309493+00:00",
+  "timestamp": "2025-09-21T01:27:59.082705+00:00",
   "repo": "lamps-wg/pkcs8-PriKeyInfoCt",
   "labels": [
     {
@@ -463,6 +463,185 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOOAA1A86pT128",
+      "title": "Update intro",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/10",
+      "state": "OPEN",
+      "author": "russhousley",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Avoid \"obsoleted\" in the intro",
+      "createdAt": "2025-09-18T14:39:20Z",
+      "updatedAt": "2025-09-19T17:56:11Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "ebef3e4a433058a75682a790a627c8584dba41fe",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "update-intro",
+      "headRefOid": "bdf9df288d70b219b3fdd8e603412ac2f76d80de",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOOAA1A87BbfdZ",
+          "commit": {
+            "abbreviatedOid": "9f49a70"
+          },
+          "author": "boucadair",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-19T14:35:40Z",
+          "updatedAt": "2025-09-19T14:35:40Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOOAA1A87Bcxdr",
+          "commit": {
+            "abbreviatedOid": "9f49a70"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-19T15:42:57Z",
+          "updatedAt": "2025-09-19T15:42:58Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "```suggestion\r\nthe syntax was later revised by {{RFC5958}} to include the AsymmetricKeyPackage content type that supports multiple PrivateKeyInfos. This document defines PKCS #8 content types for\r\nuse with one PrivateKeyInfo and EncryptedPrivateKeyInfo. These content type assignments are\r\n```\r\n\r\nI am not wed 100% to change, but if are providing context then this is more of that.",
+              "createdAt": "2025-09-19T15:42:57Z",
+              "updatedAt": "2025-09-19T15:42:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOOAA1A87BdNGu",
+          "commit": {
+            "abbreviatedOid": "9f49a70"
+          },
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-19T16:03:48Z",
+          "updatedAt": "2025-09-19T16:03:48Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "Sure.  That is fine with me.",
+              "createdAt": "2025-09-19T16:03:48Z",
+              "updatedAt": "2025-09-19T16:03:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOOAA1A87Bdszz",
+          "commit": {
+            "abbreviatedOid": "9f49a70"
+          },
+          "author": "mandelj7",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-19T16:31:24Z",
+          "updatedAt": "2025-09-19T16:31:24Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "This looks good to me.",
+              "createdAt": "2025-09-19T16:31:24Z",
+              "updatedAt": "2025-09-19T16:31:24Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOOAA1A87Bfezn",
+          "commit": {
+            "abbreviatedOid": "bdf9df2"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-19T17:56:11Z",
+          "updatedAt": "2025-09-19T17:56:11Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOOAA1A86phNEf",
+      "title": "Add ASN.1 References",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/11",
+      "state": "OPEN",
+      "author": "russhousley",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Add references to X.680 and X.690. Also, move the placement of the Section containing the ASN.1 module.",
+      "createdAt": "2025-09-19T14:27:13Z",
+      "updatedAt": "2025-09-19T16:27:05Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "ebef3e4a433058a75682a790a627c8584dba41fe",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "add-asn1-refs",
+      "headRefOid": "1b319a60b27d6e0405f0f567aaaecedca54bc701",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOOAA1A87Bbf_7",
+          "commit": {
+            "abbreviatedOid": "1b319a6"
+          },
+          "author": "boucadair",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-19T14:36:07Z",
+          "updatedAt": "2025-09-19T14:36:07Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOOAA1A87BcySS",
+          "commit": {
+            "abbreviatedOid": "1b319a6"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-19T15:43:32Z",
+          "updatedAt": "2025-09-19T15:43:32Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOOAA1A87BdnyN",
+          "commit": {
+            "abbreviatedOid": "1b319a6"
+          },
+          "author": "mandelj7",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-19T16:27:05Z",
+          "updatedAt": "2025-09-19T16:27:05Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
