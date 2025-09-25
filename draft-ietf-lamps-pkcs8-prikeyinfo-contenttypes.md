@@ -59,7 +59,7 @@ use with one PrivateKeyInfo and EncryptedPrivateKeyInfo. These content type assi
 needed for PrivateKeyInfo and EncryptedPrivateKeyInfo to be carried in the
 Cryptographic Message Syntax (CMS) {{RFC5652}}.
 
-Note: A very long tima ago, media types for PrivateKeyInfo and EncryptedPrivateKeyInfo were assigned
+Note: A very long time ago, media types for PrivateKeyInfo and EncryptedPrivateKeyInfo were assigned
 as application/pkcs8 and application/pkcs8-encrypted, respectively.
 
 # Conventions and Definitions
