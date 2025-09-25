@@ -53,10 +53,14 @@ RFC 5958.
 # Introduction {#intro}
 
 The syntax for private-key information was originally described in {{RFC5208}}, and
-the syntax was later revised by {{RFC5958}} to include the AsymmetricKeyPackage content type that supports multiple PrivateKeyInfos. This document defines PKCS #8 content types for
+the syntax was later revised by {{RFC5958}} to include the AsymmetricKeyPackage
+content type that supports multiple PrivateKeyInfos. This document defines PKCS #8 content types for
 use with one PrivateKeyInfo and EncryptedPrivateKeyInfo. These content type assignments are
 needed for PrivateKeyInfo and EncryptedPrivateKeyInfo to be carried in the
 Cryptographic Message Syntax (CMS) {{RFC5652}}.
+
+Note: A very long time ago, media types for PrivateKeyInfo and EncryptedPrivateKeyInfo were assigned
+as application/pkcs8 and application/pkcs8-encrypted, respectively.
 
 # Conventions and Definitions
 
