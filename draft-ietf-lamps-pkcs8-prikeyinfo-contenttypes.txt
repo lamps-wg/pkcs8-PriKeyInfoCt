@@ -5,10 +5,10 @@
 Limited Additional Mechanisms for PKIX and SMIME               J. Mandel
 Internet-Draft                                                    AKAYLA
 Intended status: Standards Track                              R. Housley
-Expires: 5 March 2026                                     Vigil Security
+Expires: 29 March 2026                                    Vigil Security
                                                                S. Turner
                                                                    sn3rd
-                                                        1 September 2025
+                                                       25 September 2025
 
 
              PKCS #8 Private-Key Information Content Types
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 March 2026.
+   This Internet-Draft will expire on 29 March 2026.
 
 Copyright Notice
 
@@ -84,9 +84,13 @@ Table of Contents
 1.  Introduction
 
    The syntax for private-key information was originally described in
-   [RFC5208] and later obsoleted by [RFC5958].  This document defines
-   PKCS #8 content types for use with PrivateKeyInfo and
-   EncryptedPrivateKeyInfo.
+   [RFC5208], and the syntax was later revised by [RFC5958] to include
+   the AsymmetricKeyPackage content type that supports multiple
+   PrivateKeyInfos.  This document defines PKCS #8 content types for use
+   with one PrivateKeyInfo and EncryptedPrivateKeyInfo.  These content
+   type assignments are needed for PrivateKeyInfo and
+   EncryptedPrivateKeyInfo to be carried in the Cryptographic Message
+   Syntax (CMS) [RFC5652].
 
 2.  Conventions and Definitions
 
@@ -192,6 +196,10 @@ Table of Contents
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/rfc/rfc2119>.
+
+   [RFC5652]  Housley, R., "Cryptographic Message Syntax (CMS)", STD 70,
+              RFC 5652, DOI 10.17487/RFC5652, September 2009,
+              <https://www.rfc-editor.org/rfc/rfc5652>.
 
    [RFC5911]  Hoffman, P. and J. Schaad, "New ASN.1 Modules for
               Cryptographic Message Syntax (CMS) and S/MIME", RFC 5911,
