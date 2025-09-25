@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-23T01:20:08.973738+00:00",
+  "timestamp": "2025-09-25T01:21:20.284835+00:00",
   "repo": "lamps-wg/pkcs8-PriKeyInfoCt",
   "labels": [
     {
@@ -476,7 +476,7 @@
       "labels": [],
       "body": "Avoid \"obsoleted\" in the intro",
       "createdAt": "2025-09-18T14:39:20Z",
-      "updatedAt": "2025-09-19T17:56:11Z",
+      "updatedAt": "2025-09-23T16:21:57Z",
       "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "baseRefName": "main",
       "baseRefOid": "ebef3e4a433058a75682a790a627c8584dba41fe",
@@ -574,6 +574,19 @@
           "createdAt": "2025-09-19T17:56:11Z",
           "updatedAt": "2025-09-19T17:56:11Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOOAA1A87CPP7a",
+          "commit": {
+            "abbreviatedOid": "bdf9df2"
+          },
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-23T16:21:57Z",
+          "updatedAt": "2025-09-23T16:21:57Z",
+          "comments": []
         }
       ]
     },
@@ -639,6 +652,46 @@
           "body": "",
           "createdAt": "2025-09-19T16:27:05Z",
           "updatedAt": "2025-09-19T16:27:05Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOOAA1A86qTE0V",
+      "title": "Add media types",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/12",
+      "state": "OPEN",
+      "author": "russhousley",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Add a note about media types",
+      "createdAt": "2025-09-24T14:09:57Z",
+      "updatedAt": "2025-09-24T20:46:42Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "update-intro",
+      "baseRefOid": "bdf9df288d70b219b3fdd8e603412ac2f76d80de",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "add-media-types",
+      "headRefOid": "ee40728c26f68b0cc7c9843e72f3ebb2fbfbc835",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOOAA1A87Cly5E",
+          "commit": {
+            "abbreviatedOid": "ee40728"
+          },
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-24T20:46:42Z",
+          "updatedAt": "2025-09-24T20:46:42Z",
           "comments": []
         }
       ]
