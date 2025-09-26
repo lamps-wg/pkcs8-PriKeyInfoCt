@@ -180,6 +180,8 @@ should be allocated in the "SMI Security for S/MIME Module Identifier"
 registry (1.2.840.113549.1.9.16.0), and the Description for the new OID should be set
 to "id-mod-pkcs8ContentType".
 
+IANA is also requested to update the application/cms entry in the "Media Types" registry to add [ RFC-to-be] to the list of RFCs where Inner Content Types (ICTs) are defined in the "Optional parameters" and the "Interoperability considerations" sections.
+
 IANA is also requested to update the application/cms entry in the "Media Types" registry to
 add the following values to the "innerContent" list:
 
