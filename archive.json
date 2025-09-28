@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-25T01:21:20.284835+00:00",
+  "timestamp": "2025-09-28T01:35:56.008676+00:00",
   "repo": "lamps-wg/pkcs8-PriKeyInfoCt",
   "labels": [
     {
@@ -49,7 +49,24 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 15,
+      "id": "I_kwDOOAA1A87OJnZ9",
+      "title": "Update application/cms registry",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/issues/15",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I forgot about the [application/cms registry](https://www.iana.org/assignments/media-types/application/cms). This document should add privateKeyInfoContentTypes and encrPrivateKeyInfo to the CMS Inner Content Types list.",
+      "createdAt": "2025-09-26T18:05:32Z",
+      "updatedAt": "2025-09-26T18:05:32Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": [
     {
       "number": 1,
@@ -469,24 +486,26 @@
       "id": "PR_kwDOOAA1A86pT128",
       "title": "Update intro",
       "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/10",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "russhousley",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Avoid \"obsoleted\" in the intro",
       "createdAt": "2025-09-18T14:39:20Z",
-      "updatedAt": "2025-09-23T16:21:57Z",
+      "updatedAt": "2025-09-25T14:38:52Z",
       "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "baseRefName": "main",
       "baseRefOid": "ebef3e4a433058a75682a790a627c8584dba41fe",
       "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "headRefName": "update-intro",
       "headRefOid": "bdf9df288d70b219b3fdd8e603412ac2f76d80de",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-25T14:38:52Z",
+      "mergedAt": "2025-09-25T14:38:52Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "78e3ccb81018079ce7e6da7b7fb03ed0a0ead510"
+      },
       "comments": [],
       "reviews": [
         {
@@ -595,24 +614,26 @@
       "id": "PR_kwDOOAA1A86phNEf",
       "title": "Add ASN.1 References",
       "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/11",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "russhousley",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Add references to X.680 and X.690. Also, move the placement of the Section containing the ASN.1 module.",
       "createdAt": "2025-09-19T14:27:13Z",
-      "updatedAt": "2025-09-19T16:27:05Z",
+      "updatedAt": "2025-09-25T14:40:26Z",
       "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "baseRefName": "main",
       "baseRefOid": "ebef3e4a433058a75682a790a627c8584dba41fe",
       "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "headRefName": "add-asn1-refs",
       "headRefOid": "1b319a60b27d6e0405f0f567aaaecedca54bc701",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-25T14:40:26Z",
+      "mergedAt": "2025-09-25T14:40:26Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "0b1dbe463cefe4268fe0466cdb3ac128660a0560"
+      },
       "comments": [],
       "reviews": [
         {
@@ -661,24 +682,26 @@
       "id": "PR_kwDOOAA1A86qTE0V",
       "title": "Add media types",
       "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/12",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "russhousley",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Add a note about media types",
       "createdAt": "2025-09-24T14:09:57Z",
-      "updatedAt": "2025-09-24T20:46:42Z",
+      "updatedAt": "2025-09-25T14:44:23Z",
       "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "baseRefName": "update-intro",
       "baseRefOid": "bdf9df288d70b219b3fdd8e603412ac2f76d80de",
       "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "headRefName": "add-media-types",
-      "headRefOid": "ee40728c26f68b0cc7c9843e72f3ebb2fbfbc835",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "fb502ac6576370be50445a7d5753f521e2037847",
+      "closedAt": "2025-09-25T14:44:23Z",
+      "mergedAt": "2025-09-25T14:44:23Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "3e13689692d060ad794c6294e0fdb206cc65a53c"
+      },
       "comments": [],
       "reviews": [
         {
@@ -693,6 +716,115 @@
           "createdAt": "2025-09-24T20:46:42Z",
           "updatedAt": "2025-09-24T20:46:42Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOOAA1A86qiISm",
+      "title": "Revert 12 add media types",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/13",
+      "state": "CLOSED",
+      "author": "mandelj7",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-09-25T15:13:04Z",
+      "updatedAt": "2025-09-25T15:22:07Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "0b1dbe463cefe4268fe0466cdb3ac128660a0560",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "revert-12-add-media-types",
+      "headRefOid": "31c9614e947cbf8e1fae772b2b15b7206ff5f276",
+      "closedAt": "2025-09-25T15:21:18Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "mandelj7",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Made the corrections in #14 ",
+          "createdAt": "2025-09-25T15:22:07Z",
+          "updatedAt": "2025-09-25T15:22:07Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOOAA1A86qiN10",
+      "title": "Fix merges",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/14",
+      "state": "MERGED",
+      "author": "mandelj7",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-09-25T15:20:49Z",
+      "updatedAt": "2025-09-25T15:23:14Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "0b1dbe463cefe4268fe0466cdb3ac128660a0560",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "Fix-merges",
+      "headRefOid": "348bd7836f0202781d24cfd0000088a0e709ea47",
+      "closedAt": "2025-09-25T15:23:14Z",
+      "mergedAt": "2025-09-25T15:23:14Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "b36275ffa6a2e64587a255c2772e3f0267c9d959"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 16,
+      "id": "PR_kwDOOAA1A86qxhSJ",
+      "title": "Address #15",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/16",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #15.",
+      "createdAt": "2025-09-26T18:17:10Z",
+      "updatedAt": "2025-09-26T18:29:23Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "b36275ffa6a2e64587a255c2772e3f0267c9d959",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "seanturner-patch-15",
+      "headRefOid": "e356c097d2a98c7ea8942907b2f2ce1d46ec3d7a",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOOAA1A87DHA7f",
+          "commit": {
+            "abbreviatedOid": "e3e071e"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-26T18:27:58Z",
+          "updatedAt": "2025-09-26T18:27:58Z",
+          "comments": [
+            {
+              "originalPosition": 4,
+              "body": "```suggestion\nIANA is also requested to update the application/cms entry in the \"Media Types\" registry to add [ RFC-to-be] to the list of RFCs where Inner Content Types (ICTs) are defined in the \"Optional parameters\" and the \"Interoperability considerations\" sections.\n\nIANA is also requested to update the application/cms entry in the \"Media Types\" registry to\n```",
+              "createdAt": "2025-09-26T18:27:58Z",
+              "updatedAt": "2025-09-26T18:27:58Z"
+            }
+          ]
         }
       ]
     }
