@@ -86,10 +86,6 @@ Cryptographic Message Syntax (CMS) {{RFC5652}}.
 Note: A very long time ago, media types for PrivateKeyInfo and EncryptedPrivateKeyInfo were assigned
 as application/pkcs8 and application/pkcs8-encrypted, respectively.
 
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
-
 # Private-Key Information Content Types {#ContentTypes}
 
 This section defines a content type for private-key information and
