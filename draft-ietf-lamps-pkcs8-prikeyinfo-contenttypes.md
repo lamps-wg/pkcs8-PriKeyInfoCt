@@ -71,6 +71,13 @@ informative:
   IANA-CMS-CTS:
     title: "SMI Security for S/MIME CMS Content Type"
     target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1
+  IANA-SMIME-MODS:
+    title: "SMI Security for S/MIME Module Identifier"
+    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0
+  IANA-CMS-CTS:
+    title: "SMI Security for S/MIME CMS Content Type"
+    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1
+
 
   
 --- abstract
