@@ -79,7 +79,6 @@ informative:
     target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1
 
 
-  
 --- abstract
 
 This document defines PKCS #8 content types for use with
