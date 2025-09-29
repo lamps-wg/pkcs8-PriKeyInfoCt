@@ -65,6 +65,19 @@ normative:
       ISO/IEC: 8825-1-2021
 informative:
   RFC5208:
+  IANA-SMIME-MODS:
+    title: "SMI Security for S/MIME Module Identifier"
+    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0
+  IANA-CMS-CTS:
+    title: "SMI Security for S/MIME CMS Content Type"
+    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1
+  IANA-SMIME-MODS:
+    title: "SMI Security for S/MIME Module Identifier"
+    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0
+  IANA-CMS-CTS:
+    title: "SMI Security for S/MIME CMS Content Type"
+    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1
+
 
 --- abstract
 
@@ -167,13 +180,13 @@ The security considerations in {{RFC5958}} apply here.
 For the private key info content types defined in section {{ContentTypes}},
 IANA is requested to assign an object identifier (OID) for each of the content types. The
 OIDs for the content types should be alloacted in the "SMI Security for S/MIME CMS Content Type"
-registry (1.2.840.113549.1.9.16.1), and the description should be set to id-ct-privateKeyInfo (TDB1)
+registry (1.2.840.113549.1.9.16.1) {{IANA-CMS-CTS}}, and the description should be set to id-ct-privateKeyInfo (TDB1)
 and id-ct-encrPrivateKeyInfo (TBD2).
 
 For the ASN.1 Module in {{asn1-mod}}, IANA is requested to assign an
 object identifier (OID) for the module identifier. The OID for the module
 should be allocated in the "SMI Security for S/MIME Module Identifier"
-registry (1.2.840.113549.1.9.16.0), and the Description for the new OID should be set
+registry (1.2.840.113549.1.9.16.0) {{IANA-SMIME-MODS}}, and the Description for the new OID should be set
 to "id-mod-pkcs8ContentType".
 
 IANA is also requested to update the application/cms entry in the "Media Types" registry to add [ RFC-to-be] to the list of RFCs where Inner Content Types (ICTs) are defined in the "Optional parameters" and the "Interoperability considerations" sections.
