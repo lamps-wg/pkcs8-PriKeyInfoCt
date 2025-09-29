@@ -178,7 +178,7 @@ The security considerations in {{RFC5958}} apply here.
 For the private key info content types defined in section {{ContentTypes}},
 IANA is requested to assign an object identifier (OID) for each of the content types. The
 OIDs for the content types should be alloacted in the "SMI Security for S/MIME CMS Content Type"
-registry (1.2.840.113549.1.9.16.1) {{IANA-SMIME-CTS}}, and the description should be set to id-ct-privateKeyInfo (TDB1)
+registry (1.2.840.113549.1.9.16.1) {{IANA-CMS-CTS}}, and the description should be set to id-ct-privateKeyInfo (TDB1)
 and id-ct-encrPrivateKeyInfo (TBD2).
 
 For the ASN.1 Module in {{asn1-mod}}, IANA is requested to assign an
