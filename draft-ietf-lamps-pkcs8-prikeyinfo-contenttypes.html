@@ -1306,12 +1306,12 @@ END
 <p id="section-5-1">For the private key info content types defined in section <a href="#ContentTypes" class="auto internal xref">Section 2</a>,
 IANA is requested to assign an object identifier (OID) for each of the content types. The
 OIDs for the content types should be alloacted in the "SMI Security for S/MIME CMS Content Type"
-registry (1.2.840.113549.1.9.16.1), and the description should be set to id-ct-privateKeyInfo (TDB1)
+registry (1.2.840.113549.1.9.16.1) <span>[<a href="#IANA-CMS-CTS" class="cite xref">IANA-CMS-CTS</a>]</span>, and the description should be set to id-ct-privateKeyInfo (TDB1)
 and id-ct-encrPrivateKeyInfo (TBD2).<a href="#section-5-1" class="pilcrow">¶</a></p>
 <p id="section-5-2">For the ASN.1 Module in <a href="#asn1-mod" class="auto internal xref">Section 3</a>, IANA is requested to assign an
 object identifier (OID) for the module identifier. The OID for the module
 should be allocated in the "SMI Security for S/MIME Module Identifier"
-registry (1.2.840.113549.1.9.16.0), and the Description for the new OID should be set
+registry (1.2.840.113549.1.9.16.0) <span>[<a href="#IANA-SMIME-MODS" class="cite xref">IANA-SMIME-MODS</a>]</span>, and the Description for the new OID should be set
 to "id-mod-pkcs8ContentType".<a href="#section-5-2" class="pilcrow">¶</a></p>
 <p id="section-5-3">IANA is also requested to update the application/cms entry in the "Media Types" registry to add [ RFC-to-be] to the list of RFCs where Inner Content Types (ICTs) are defined in the "Optional parameters" and the "Interoperability considerations" sections.<a href="#section-5-3" class="pilcrow">¶</a></p>
 <p id="section-5-4">IANA is also requested to update the application/cms entry in the "Media Types" registry to
@@ -1382,6 +1382,14 @@ add the following values to the "innerContent" list:<a href="#section-5-4" class
 <a href="#section-6.2" class="section-number selfRef">6.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
+<dt id="IANA-CMS-CTS">[IANA-CMS-CTS]</dt>
+        <dd>
+<span class="refTitle">"SMI Security for S/MIME CMS Content Type"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1">https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="IANA-SMIME-MODS">[IANA-SMIME-MODS]</dt>
+        <dd>
+<span class="refTitle">"SMI Security for S/MIME Module Identifier"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0">https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC5208">[RFC5208]</dt>
       <dd>
 <span class="refAuthor">Kaliski, B.</span>, <span class="refTitle">"Public-Key Cryptography Standards (PKCS) #8: Private-Key Information Syntax Specification Version 1.2"</span>, <span class="seriesInfo">RFC 5208</span>, <span class="seriesInfo">DOI 10.17487/RFC5208</span>, <time datetime="2008-05" class="refDate">May 2008</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc5208">https://www.rfc-editor.org/rfc/rfc5208</a>&gt;</span>. </dd>
