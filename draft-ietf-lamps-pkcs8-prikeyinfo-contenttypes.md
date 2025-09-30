@@ -209,5 +209,5 @@ And, to update the following row in the application/cms entry's "Security consid
 # Acknowledgments
 {:numbered="false"}
 
-Thanks to John Gray and Deb Cooley for reviewing the document and providing comments.
+Thanks to John Gray, Deb Cooley, Mohamed Boucadair, Orie Steele, and Éric Vyncke for reviewing the document and providing comments.
 
