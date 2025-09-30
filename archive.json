@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-28T01:35:56.008676+00:00",
+  "timestamp": "2025-09-30T01:21:53.935893+00:00",
   "repo": "lamps-wg/pkcs8-PriKeyInfoCt",
   "labels": [
     {
@@ -55,15 +55,47 @@
       "id": "I_kwDOOAA1A87OJnZ9",
       "title": "Update application/cms registry",
       "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/issues/15",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "seanturner",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "I forgot about the [application/cms registry](https://www.iana.org/assignments/media-types/application/cms). This document should add privateKeyInfoContentTypes and encrPrivateKeyInfo to the CMS Inner Content Types list.",
       "createdAt": "2025-09-26T18:05:32Z",
-      "updatedAt": "2025-09-26T18:05:32Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-29T15:47:34Z",
+      "closedAt": "2025-09-29T15:47:34Z",
+      "comments": []
+    },
+    {
+      "number": 17,
+      "id": "I_kwDOOAA1A87OilHC",
+      "title": "Drop BCP 195 ref",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/issues/17",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "There's no BCP 195 language so we can drop the entire clause.",
+      "createdAt": "2025-09-29T14:00:34Z",
+      "updatedAt": "2025-09-29T15:49:11Z",
+      "closedAt": "2025-09-29T15:49:11Z",
+      "comments": []
+    },
+    {
+      "number": 19,
+      "id": "I_kwDOOAA1A87Oi5ip",
+      "title": "Add ref to IANA registry",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/issues/19",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "As suggested by Eric.",
+      "createdAt": "2025-09-29T14:20:58Z",
+      "updatedAt": "2025-09-29T15:49:33Z",
+      "closedAt": "2025-09-29T15:49:33Z",
       "comments": []
     }
   ],
@@ -786,24 +818,26 @@
       "id": "PR_kwDOOAA1A86qxhSJ",
       "title": "Address #15",
       "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/16",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "seanturner",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Closes #15.",
       "createdAt": "2025-09-26T18:17:10Z",
-      "updatedAt": "2025-09-26T18:29:23Z",
+      "updatedAt": "2025-09-29T15:47:33Z",
       "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "baseRefName": "main",
       "baseRefOid": "b36275ffa6a2e64587a255c2772e3f0267c9d959",
       "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
       "headRefName": "seanturner-patch-15",
       "headRefOid": "e356c097d2a98c7ea8942907b2f2ce1d46ec3d7a",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-29T15:47:33Z",
+      "mergedAt": "2025-09-29T15:47:33Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "2af70759860145e91f689be5c89c0b6bf739f324"
+      },
       "comments": [],
       "reviews": [
         {
@@ -823,6 +857,136 @@
               "body": "```suggestion\nIANA is also requested to update the application/cms entry in the \"Media Types\" registry to add [ RFC-to-be] to the list of RFCs where Inner Content Types (ICTs) are defined in the \"Optional parameters\" and the \"Interoperability considerations\" sections.\n\nIANA is also requested to update the application/cms entry in the \"Media Types\" registry to\n```",
               "createdAt": "2025-09-26T18:27:58Z",
               "updatedAt": "2025-09-26T18:27:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOOAA1A87DiJnU",
+          "commit": {
+            "abbreviatedOid": "e356c09"
+          },
+          "author": "mandelj7",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-29T15:34:42Z",
+          "updatedAt": "2025-09-29T15:34:42Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDOOAA1A86rHLV3",
+      "title": "Address #17",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/18",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #17.",
+      "createdAt": "2025-09-29T14:01:24Z",
+      "updatedAt": "2025-09-29T15:49:10Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "b36275ffa6a2e64587a255c2772e3f0267c9d959",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "seanturner-no-bcp-lang",
+      "headRefOid": "c13160aca7fd9f3b8d4580692eeca0909575c331",
+      "closedAt": "2025-09-29T15:49:10Z",
+      "mergedAt": "2025-09-29T15:49:10Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "f78b347eb19366a7e140e96a2ed71d9b7992ae15"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 20,
+      "id": "PR_kwDOOAA1A86rHhSa",
+      "title": "Address #19",
+      "url": "https://github.com/lamps-wg/pkcs8-PriKeyInfoCt/pull/20",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #19.",
+      "createdAt": "2025-09-29T14:26:08Z",
+      "updatedAt": "2025-09-29T15:49:32Z",
+      "baseRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "baseRefName": "main",
+      "baseRefOid": "b36275ffa6a2e64587a255c2772e3f0267c9d959",
+      "headRepository": "lamps-wg/pkcs8-PriKeyInfoCt",
+      "headRefName": "seanturner-iana-refs",
+      "headRefOid": "a057b4a34096b5cc86490e4ba78aa1b3161c7af4",
+      "closedAt": "2025-09-29T15:49:32Z",
+      "mergedAt": "2025-09-29T15:49:32Z",
+      "mergedBy": "mandelj7",
+      "mergeCommit": {
+        "oid": "366cff4b71caf4767c28f39fa8110da5909115f0"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOOAA1A87Dg1Yk",
+          "commit": {
+            "abbreviatedOid": "e519369"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-29T14:27:13Z",
+          "updatedAt": "2025-09-29T14:27:13Z",
+          "comments": [
+            {
+              "originalPosition": 21,
+              "body": "```suggestion\nregistry (1.2.840.113549.1.9.16.1) {{IANA-CMS-CTS}}, and the description should be set to id-ct-privateKeyInfo (TDB1)\n```",
+              "createdAt": "2025-09-29T14:27:13Z",
+              "updatedAt": "2025-09-29T14:27:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOOAA1A87Dg37H",
+          "commit": {
+            "abbreviatedOid": "190ec99"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-29T14:29:12Z",
+          "updatedAt": "2025-09-29T14:29:12Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\n  IANA-SMIME-MODS:\n    title: \"SMI Security for S/MIME Module Identifier\"\n    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0\n  IANA-CMS-CTS:\n    title: \"SMI Security for S/MIME CMS Content Type\"\n    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1\n\n\n```",
+              "createdAt": "2025-09-29T14:29:12Z",
+              "updatedAt": "2025-09-29T14:29:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOOAA1A87Dg7ZQ",
+          "commit": {
+            "abbreviatedOid": "cef6afd"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-29T14:32:37Z",
+          "updatedAt": "2025-09-29T14:32:38Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\n  IANA-SMIME-MODS:\n    title: \"SMI Security for S/MIME Module Identifier\"\n    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0\n  IANA-CMS-CTS:\n    title: \"SMI Security for S/MIME CMS Content Type\"\n    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1\n  IANA-SMIME-MODS:\n    title: \"SMI Security for S/MIME Module Identifier\"\n    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-0\n  IANA-CMS-CTS:\n    title: \"SMI Security for S/MIME CMS Content Type\"\n    target: https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml#security-smime-1\n\n\n```",
+              "createdAt": "2025-09-29T14:32:37Z",
+              "updatedAt": "2025-09-29T14:32:37Z"
             }
           ]
         }
